@@ -1,0 +1,3 @@
+[tool.pytest.ini_options]
+# make the `src` package importable when pytest is run from the repo root
+pythonpath = ["."]
