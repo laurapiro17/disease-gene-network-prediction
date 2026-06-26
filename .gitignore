@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+.DS_Store
+
+# keep results/metrics.json and the README figures under assets/

@@ -1,0 +1,178 @@
+{
+  "graph": {
+    "disease": "Alzheimer disease",
+    "nodes": 15882,
+    "edges": 236712,
+    "seed_genes": 80
+  },
+  "cross_validation": {
+    "rwr": {
+      "auroc": {
+        "mean": 0.892129951904822,
+        "std": 0.023747143589454168
+      },
+      "auprc": {
+        "mean": 0.07277231450171166,
+        "std": 0.029722311011246078
+      },
+      "recovery@100": {
+        "mean": 0.325,
+        "std": 0.10752906583803283
+      }
+    },
+    "spectral": {
+      "auroc": {
+        "mean": 0.8712516611821289,
+        "std": 0.04074118938000268
+      },
+      "auprc": {
+        "mean": 0.035828855977322896,
+        "std": 0.0246425131140773
+      },
+      "recovery@100": {
+        "mean": 0.225,
+        "std": 0.05000000000000001
+      }
+    }
+  },
+  "conformal": {
+    "target_coverage": 0.9,
+    "repeats": 20,
+    "rwr": {
+      "coverage": 0.9200000000000002,
+      "candidate_set_size": 7008.5
+    },
+    "spectral": {
+      "coverage": 0.9275,
+      "candidate_set_size": 8819.8
+    }
+  },
+  "discoveries": [
+    {
+      "gene": "CCNB1",
+      "rwr_rank": 93,
+      "spectral_rank": 97
+    },
+    {
+      "gene": "BACE1",
+      "rwr_rank": 96,
+      "spectral_rank": 100
+    },
+    {
+      "gene": "NDUFS3",
+      "rwr_rank": 134,
+      "spectral_rank": 91
+    },
+    {
+      "gene": "GRIA4",
+      "rwr_rank": 100,
+      "spectral_rank": 133
+    },
+    {
+      "gene": "PSENEN",
+      "rwr_rank": 108,
+      "spectral_rank": 126
+    },
+    {
+      "gene": "NDUFA13",
+      "rwr_rank": 149,
+      "spectral_rank": 86
+    },
+    {
+      "gene": "CNIH3",
+      "rwr_rank": 126,
+      "spectral_rank": 113
+    },
+    {
+      "gene": "NDUFA2",
+      "rwr_rank": 159,
+      "spectral_rank": 82
+    },
+    {
+      "gene": "NDUFS8",
+      "rwr_rank": 135,
+      "spectral_rank": 111
+    },
+    {
+      "gene": "NDUFS7",
+      "rwr_rank": 164,
+      "spectral_rank": 84
+    },
+    {
+      "gene": "OLFM2",
+      "rwr_rank": 133,
+      "spectral_rank": 123
+    },
+    {
+      "gene": "NDUFS6",
+      "rwr_rank": 154,
+      "spectral_rank": 104
+    },
+    {
+      "gene": "NDUFB10",
+      "rwr_rank": 163,
+      "spectral_rank": 102
+    },
+    {
+      "gene": "CYC1",
+      "rwr_rank": 146,
+      "spectral_rank": 124
+    },
+    {
+      "gene": "APH1A",
+      "rwr_rank": 116,
+      "spectral_rank": 156
+    },
+    {
+      "gene": "UQCRC2",
+      "rwr_rank": 177,
+      "spectral_rank": 96
+    },
+    {
+      "gene": "GRIA2",
+      "rwr_rank": 94,
+      "spectral_rank": 182
+    },
+    {
+      "gene": "NDUFA6",
+      "rwr_rank": 156,
+      "spectral_rank": 125
+    },
+    {
+      "gene": "MT-ND2",
+      "rwr_rank": 181,
+      "spectral_rank": 101
+    },
+    {
+      "gene": "NDUFA12",
+      "rwr_rank": 147,
+      "spectral_rank": 136
+    },
+    {
+      "gene": "NDUFB8",
+      "rwr_rank": 150,
+      "spectral_rank": 140
+    },
+    {
+      "gene": "NCSTN",
+      "rwr_rank": 110,
+      "spectral_rank": 180
+    },
+    {
+      "gene": "NDUFB4",
+      "rwr_rank": 202,
+      "spectral_rank": 88
+    },
+    {
+      "gene": "NDUFA10",
+      "rwr_rank": 207,
+      "spectral_rank": 85
+    },
+    {
+      "gene": "CACNG5",
+      "rwr_rank": 128,
+      "spectral_rank": 167
+    }
+  ],
+  "runtime_seconds": 27.2
+}

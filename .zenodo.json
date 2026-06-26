@@ -1,0 +1,10 @@
+{
+  "title": "Alzheimer disease-gene discovery on the STRING interactome: network propagation vs spectral learning, with conformal candidate sets",
+  "description": "Disease-gene prioritisation for Alzheimer disease on the human STRING protein-protein interaction network. Random-walk-with-restart network propagation is benchmarked against a spectral-embedding + random-forest learner under identical seed-recovery folds, and split-conformal prediction turns the gene ranking into a candidate set with a finite-sample coverage guarantee. Seeds are drawn live from Open Targets; the interactome streams from STRING on first run.",
+  "license": "MIT",
+  "upload_type": "software",
+  "keywords": ["network medicine", "disease gene prioritisation", "protein-protein interaction", "random walk with restart", "conformal prediction", "Alzheimer disease", "STRING", "Open Targets"],
+  "creators": [
+    {"name": "Piñero Roig, Laura", "orcid": "0009-0008-3390-4029"}
+  ]
+}
